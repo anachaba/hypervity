@@ -1,0 +1,24 @@
+{%extends 'base.html'%}
+
+{%block content%}
+    <h2 class="add"><a href="{%url 'addTodo'%}">+</a></h2>
+    {%for act in object_list %}
+    <div class="maindiv">
+        
+        <div class="name">
+            <h3>{{act.name}}.<a href="{% url 'deleteView' act.pk%}">          X</a>|<a href="{% url 'updateView' act.pk%}">     O</a></h3></h3> 
+            
+            
+            
+     
+        </div>
+
+       
+        
+        </div>
+            
+    </div>
+    {% endfor %}
+
+
+{%endblock%}

@@ -1,0 +1,77 @@
+.head {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(184, 110, 8);
+    font-size: 50px;
+    margin-left: 25%;
+    
+    
+}
+
+.add {
+    margin: 15px;
+    margin-top: 1px;
+    font-size: 75px;
+    color: rgb(255, 0, 81);
+    
+}
+.add :visited{
+    margin: 15px;
+    margin-top: 1px;
+    font-size: 75px;
+    color: rgb(255, 0, 81);
+    
+}
+.add :hover {
+    margin: 15px;
+    margin-top: 1px;
+    font-size: 75px;
+    color: rgb(255, 0, 81);
+    
+}
+
+
+
+h3{
+    font-size: 35px;
+    color: azure;
+}
+a{
+    text-decoration: none;
+}
+.maindiv {
+    margin: 15px;
+    background-color: rgb(183, 85, 16);
+    
+    height: 50px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.maindiv :hover{
+    margin: 15px;
+    background-color: rgb(196, 104, 38);
+    
+    height: 50px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.name{
+    margin: 30px;
+    align-items:center ;
+ text-align: left;
+ position:relative;
+ 
+
+}
+
+.name :hover{
+    margin: 30px;
+    margin-left: 80px;
+    align-items:center ;
+ text-align: left;
+ position:relative;
+
+}
+
